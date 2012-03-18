@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+   <extension point="com.change_vision.astah.ui.actionSets">
+      <actionSet
+            label="%action_set_label"
+            visible="true"
+            id="com.github.mikanbako.astah.printingfontsizechecker.astah-printing-font-size-checker-plugin.actionSet">
+         <menu
+               id="astah-printing-font-size-checker-plugin"
+               label="%menu_group"
+               path="tool/astah-printing-font-size-checker-plugin">
+         </menu>
+         <action
+			   label="%menu_label"
+               icon="icons/sample.gif"
+               class="com.github.mikanbako.astah.printingfontsizechecker.TemplateAction"
+               tooltip="%menu_tooltip"
+               menubarPath="tool/astah-printing-font-size-checker-plugin/"
+               id="astah-printing-font-size-checker-plugin">
+         </action>
+     </actionSet>
+   </extension>
+</plugin>
